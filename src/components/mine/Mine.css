@@ -1,0 +1,109 @@
+.warp {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+.mine_header {
+  display: flex;
+  width: 100%;
+  height: 2.8rem;
+  background-color: #ff9900;
+  padding-top: 0.2rem;
+}
+.left_img ,.right_img{
+  height: 0.5rem;
+  width: 0.5rem;
+  margin: 0 0.2rem;
+}
+.mine {
+  flex: 1;
+  text-align: center;
+  font-size: 0.4rem;
+  color: #fff;
+  font-weight: normal;
+}
+.avatar {
+  width: 100%;
+  height: 2.3rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 0.2rem;
+}
+.avatar .img {
+  background-color: teal;
+  border: 0.2rem solid #fff;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.avatar span {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translateX(-50%);
+  font-size: 0.3rem;
+  font-weight: normal;
+}
+.sc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  font-size: 0.3rem;
+}
+.sc .icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin: 0 0.2rem;
+}
+.order {
+  width: 100%;
+  height: 1.1rem;
+  background-color: #fff;
+  padding-left: 0.8rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+.myOrder {
+  flex: 1;
+  font-size: 0.3rem;
+}
+.look {
+  font-size: 0.3rem;
+  color: #666;
+}
+.mine_nav {
+  width: 100%;
+  height: 1.6rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  margin-bottom: 0.2rem;
+}
+.mine_nav a {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #000;
+}
+.mine_nav .img {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.address {
+  width: 100%;
+  height: 1rem;
+  background-color: #fff;
+  padding-left: 0.4rem;
+  font-size: 0.3rem;
+  line-height: 1rem;
+}

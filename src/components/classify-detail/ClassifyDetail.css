@@ -1,0 +1,58 @@
+.warp {
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  width: 100%;
+  height: 0.8rem;
+  font-size: 0.4rem;
+  background-color: #ff9900;
+  text-align: center;
+  line-height: 0.8rem;
+  position: relative;
+  color: #fff;
+}
+.back {
+  position: absolute;
+  left: 0.2rem;
+  top: 0;
+  height: 100%;
+  line-height: 0.8rem;
+  color: #fff;
+  text-align: center;
+}
+.shop_list {
+  width: 100%;
+}
+.shop_list .list {
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  margin: 0.15rem;
+}
+.shop_list .img {
+  width: 2.2rem;
+  height: 2.2rem;
+  background-color: yellow;
+}
+.shop_list .info {
+  flex: 1;
+  height: 100%;
+  padding-left: 0.2rem;
+ 
+}
+.shop_list .info h3 {
+  font-size: 0.4rem;
+  font-weight: normal;
+  height: 0.8rem;
+}
+.info .price {
+  color: #ff3816;
+  font-size: 0.36rem;
+}
+.info .quick_btn {
+  padding: 0.2rem 0.4rem; 
+  background-color: #ff9900;
+  border-radius: 0.15rem;
+  color: #fff;
+}

@@ -1,0 +1,93 @@
+.warp {
+  width: 100vw;
+  height: 100vh;
+}
+.home_header {
+  height: 1.25rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.home_header img {
+  margin-left: 0.3rem;
+}
+.right_inp {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inp_box {
+  width: 1.6rem;
+  height: 0.5rem;
+  border-radius: 15px;
+  background-color: #ccc;
+  overflow: hidden;
+}
+.inp_box input {
+  text-align: center;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+}
+.banner {
+  width: 100%;
+  height: 3.5rem;
+  background-color: tomato;
+  margin-bottom: 0.1rem;
+}
+.nav {
+  width: 100%;
+  height: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.nav a {
+  display: block;
+  flex: 1;
+  height: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.3rem;
+  color: #666;
+}
+.nav .img {
+  width: 90%;
+  height: 90%;
+}
+.shop_list {
+  width: 100%;
+  padding-bottom: 0.8rem;
+}
+.shop_list .list {
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  margin: 0.15rem;
+}
+.shop_list .img {
+  width: 2.2rem;
+  height: 2.2rem;
+  background-color: yellow;
+}
+.shop_list .info {
+  flex: 1;
+  height: 100%;
+  padding-left: 0.2rem;
+ 
+}
+.shop_list .info h3 {
+  font-size: 0.4rem;
+  font-weight: normal;
+  height: 0.8rem;
+}
+.info .price {
+  color: #ff3816;
+  font-size: 0.36rem;
+}
+

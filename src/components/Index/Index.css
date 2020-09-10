@@ -1,0 +1,21 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 1rem;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+}
+.footer a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+}
+.footer .img {
+  height: 0.4rem;
+  width: 0.4rem;
+}

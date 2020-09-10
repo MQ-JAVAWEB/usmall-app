@@ -1,0 +1,126 @@
+.warp {
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  width: 100%;
+  height: 0.8rem;
+  font-size: 0.4rem;
+  background-color: #ff9900;
+  text-align: center;
+  line-height: 0.8rem;
+  position: relative;
+  color: #fff;
+}
+.shop_list {
+  width: 100%;
+}
+
+.shop_list .title {
+  width: 100%;
+  height: 0.9rem;
+  padding-left: 0.4rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.25rem;
+  color: #666;
+}
+.title .shop_img {
+  width: 0.4rem;
+  height: 0.4rem;
+
+  margin-right: 0.2rem;
+}
+.shop_list .goodsInfo {
+  display: flex;
+  position: relative;
+  height: 2.1rem;
+  align-items: center;
+}
+.shop_list .goodsInfo .inp_circle ,.settlement .inp_circle{
+  position: absolute;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  left: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.shop_list .goodsInfo .img {
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: tomato;
+  margin-left: 1rem;
+  margin-right: 0.2rem;
+}
+.intro {
+  font-size: 0.35rem;
+  color: #000;
+}
+.intro .price {
+  font-size: 0.25rem;
+}
+.count {
+  width: 2rem;
+  height: 0.4rem;
+  font-size: 0.24rem;
+  display: flex;
+  margin-top: 0.2rem;
+
+}
+.count span {
+  display: block;
+  flex: 1;
+  text-align: center;
+  border: 1px solid #Ccc;
+}
+.onePrice {
+  position: absolute;
+  right: 1rem;
+  top: 0.6rem;
+  font-size: 0.25rem;
+  color: #000;
+}
+
+.settlement {
+  position: fixed;
+  bottom: 1rem;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 1.2rem;
+  display: flex;
+
+}
+.edit_box  {
+  height: 100%;
+  width: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.35rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+.edit_box  .edit .img {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-bottom: 0.1rem;
+}
+.settlement .circle_box {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0.35rem;
+}
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.goSet {
+    width: 2rem;
+    height: 100%;
+    background-color: #ffaa00;
+}
