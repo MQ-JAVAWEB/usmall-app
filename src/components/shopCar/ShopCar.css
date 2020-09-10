@@ -36,6 +36,13 @@
   position: relative;
   height: 2.1rem;
   align-items: center;
+  transition: all 0.5s;
+}
+.transfrom{
+  transform: translateX(-1rem);
+}
+.shop_list li {
+  overflow: hidden;
 }
 .shop_list .goodsInfo .inp_circle ,.settlement .inp_circle{
   position: absolute;
@@ -123,4 +130,19 @@
     width: 2rem;
     height: 100%;
     background-color: #ffaa00;
+    color: #fff;
+    font-size: 0.4rem;
+}
+.del {
+  height: 100%;
+  width: 1rem;
+  background-color: #ffaa00;
+  position: absolute;
+  right: -1rem;
+  top: 0;
+  z-index: 10;
+  color: #Fff;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 0.3rem;
 }

@@ -4,6 +4,7 @@ import { reqGoodsInfo, reqCartAdd } from "../../util/request"
 import querystring from "querystring"
 import { filterPrice } from "../../filter/filter"
 import { Toast } from "antd-mobile"
+import Back from "../../util/back"
 export default class Detail extends Component {
 
   constructor() {
@@ -64,6 +65,14 @@ export default class Detail extends Component {
     })
   }
 
+  cancel(e){
+    if(e.target.className==="cover"){
+      this.setState({
+        isShow:false
+      })
+    }
+  }
+
   render() {
     const { goodsDetail, isShow,specsAttr,currentIndex } = this.state
     if (this.refs.desc && goodsDetail) {
@@ -74,7 +83,7 @@ export default class Detail extends Component {
         <div className="warp" style={{ background: "#f4f4f4" }}>
           <div className="header">
             商品详情
-          <a href="#" className="back">返回</a>
+            <Back ></Back>
           </div>
           <div className="shop">
             <img src={goodsDetail.img} alt="" />
@@ -99,7 +108,7 @@ export default class Detail extends Component {
           </footer>
           {
             isShow ? (
-              <div className="cover">
+              <div className="cover" onClick={(e)=>this.cancel(e)}>
                 <div className="white">
                   <div className="cover_info">
                     <img src={goodsDetail.img} alt="" />

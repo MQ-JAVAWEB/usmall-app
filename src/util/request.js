@@ -101,3 +101,21 @@ export const reqCartAdd=(form)=>{
     data:qs.stringify(form)
   })
 }
+
+// 删除购物车
+export const reqCartDel=(id)=>{
+  return axios({
+    url:"/api/cartdelete",
+    method:"post",
+    data:qs.stringify(id)
+  })
+}
+
+// 修改购物车
+export const reqCartEdit=(params)=>{
+  return axios({
+    url:"/api/cartedit",
+    method:"post",
+    data:params
+  })
+}

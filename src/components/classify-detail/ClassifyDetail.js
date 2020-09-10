@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import "./ClassifyDetail.css"
 import { reqGoods } from "../../util/request"
 import ShopCard from  "../home/components/shopCard/ShopCard"
+import Back from "../../util/back"
 export default class ClassifyDetail extends Component {
   
   constructor(){
@@ -32,7 +33,7 @@ export default class ClassifyDetail extends Component {
       <div className="warp">
         <div className="header">
           {catename}
-          <a href="#" className="back">返回</a>
+          <Back></Back>
         </div>
         <div className="shop_list">
         {
