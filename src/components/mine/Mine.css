@@ -1,7 +1,6 @@
 .warp {
   width: 100vw;
   height: 100vh;
-  background-color: #f4f4f4;
 }
 .mine_header {
   display: flex;
@@ -106,4 +105,12 @@
   padding-left: 0.4rem;
   font-size: 0.3rem;
   line-height: 1rem;
+}
+.am-badge-text {
+  position: absolute;
+  right: -10px;
+  top: -6px;
+}
+.am-list-content {
+  padding: 7px;
 }

@@ -22,7 +22,7 @@ export default class ShopCar extends Component {
     let uid = JSON.parse(sessionStorage.getItem("user")).uid
     let CartArr = this.state.cartList.length === []?[]:this.state.cartList.map(item=>item.checked)
     reqCartList({ uid }).then(res => {
-      var cartList = res.data.list
+      var cartList = res.data.list || []
       cartList.forEach((item,index)=>{
         item.checked = CartArr[index]
       })

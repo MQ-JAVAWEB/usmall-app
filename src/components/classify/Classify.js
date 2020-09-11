@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+﻿import React, { Component } from "react"
 import "./Classify.css"
 import { reqCateTree } from "../../util/request"
 import CateTree from "./components/CateTree/CateTree"
