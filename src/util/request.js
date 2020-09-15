@@ -1,11 +1,11 @@
-import axios from "axios"
+﻿import axios from "axios"
 import qs from "qs"
 
 
 
 axios.interceptors.request.use(config=>{
   console.log(config);
-  if(config.url==="/api/login"){
+  if(config.url==="/api/login" || config.url === "/api/register"){
     return config
   }else {
     let token = JSON.parse(sessionStorage.getItem("user")).token

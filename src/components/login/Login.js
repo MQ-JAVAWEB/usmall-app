@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+﻿import React, { Component } from "react"
 import "./Login.css"
 import {Button, Toast} from "antd-mobile"
 import { reqLogin } from "../../util/request"
@@ -26,9 +26,10 @@ export default class Login extends Component {
   login(){
     reqLogin(this.state.form).then(res=>{
       if(res.data.code === 200){
-        this.props.history.push("/index")
-        sessionStorage.setItem("user",JSON.stringify(res.data.list))
+         sessionStorage.setItem("user",JSON.stringify(res.data.list))
         Toast.success(res.data.msg,1)
+        this.props.history.push("/index")
+        
       }else {
         Toast.fail(res.data.msg,1)
       }
